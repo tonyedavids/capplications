@@ -8,8 +8,6 @@ int main() {
     
     sum = a + b + c;
 
-  /* Your code goes here */
-    
-  printf("The sum of a, b, and c is %f.", sum);
+  printf("The sum of a, b, and c is exactly %f.", sum);
   return 0;
 }
