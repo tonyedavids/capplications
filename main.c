@@ -20,10 +20,36 @@ int main() {
   grades[2] = 90;   // assigned every part of the list 
 
   average = (grades[0] + grades[1] + grades[2]) / 3;
-  printf("The average of the 3 grades is: %d", average);
-
-  return 0;
+  printf("The average of the 3 grades is: %d\n", average);
 
   // multi dimensional arrays
-  
+    int nums[2][5];
+		float avg;
+		int i;
+		int j;
+
+		nums[0][0] = 80;
+		nums[0][1] = 70;
+		nums[0][2] = 65;
+		nums[0][3] = 89;
+		nums[0][4] = 90;
+
+		nums[1][0] = 85;
+		nums[1][1] = 80;
+		nums[1][2] = 80;
+		nums[1][3] = 82;
+		nums[1][4] = 87;
+
+		for (i = 0; i < 2; i++) {
+			avg = 0;
+			
+			for (j = 0; j < 5; j++) {
+				avg += nums[i][j];
+			}
+
+			avg /= 5.0;
+			printf("The average marks obtained in subject %d is: %.2f\n", i, avg);
+		}
+
+		return 0;
 }
