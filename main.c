@@ -50,6 +50,22 @@ int main() {
 			avg /= 5.0;
 			printf("The average marks obtained in subject %d is: %.2f\n", i, avg);
 		}
+	// conditions
+
+	int foo = 1;
+	int bar = 2;
+
+	if (foo < bar) {
+		printf("foo is less than bar");
+	}
+	else if (foo == bar) {
+		printf("foo is equal to bar");
+
+	}
+	else {
+		printf("foo is greater than bar");
+	}
+
 
 		return 0;
 }
