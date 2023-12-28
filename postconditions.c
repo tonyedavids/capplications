@@ -17,4 +17,6 @@ int main() {
     guessNumber(500);
     guessNumber(600);
     guessNumber(555);
+
+    return 0;
 }
